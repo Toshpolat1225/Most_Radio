@@ -1,0 +1,499 @@
+header {
+    background: url("./images/header.png");
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 59px;
+    padding-bottom: 54px;
+}
+img {
+    width: 100%;
+}
+.navbartop {
+    margin-bottom: 300px;
+}
+.navbartop .leftNavbar ul {
+    margin: 0;
+    padding: 0;
+}
+.navbartop .leftNavbar ul li {
+    list-style: none;
+}
+.navbartop .leftNavbar ul .navbarLi {
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+}
+.navbartop .leftNavbar ul li a {
+    text-decoration: none !important;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 17px;
+    color: #ffffff;
+}
+.navbartop .leftNavbar ul li .dropdown-item {
+    color: black;
+}
+.navbartop .rightNavbar a {
+    text-decoration: none;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 17px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.navbartop .rightNavbar a i {
+    margin: auto;
+    margin-bottom: 10px;
+}
+.headerCard {
+    display: flex;
+    margin-bottom: 233px;
+}
+.headerCard .imgMoct {
+    width: 100%;
+}
+.headerCard p {
+    padding-top: 5px;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 61px;
+    color: #ffffff;
+}
+.headerContact {
+    margin: auto;
+}
+.headerContact ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.headerContact ul li {
+    list-style: none;
+    margin: 0 9px;
+}
+main {
+    padding-top: 95px;
+    padding-bottom: 155px;
+}
+.mainTop {
+    margin-bottom: 97px;
+}
+.page-main {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 31px;
+    color: #000000;
+    text-align: center;
+}
+.bodermain {
+    width: 75%;
+    height: 5px;
+    background: #2030ca;
+    box-shadow: 0px 3px 6px 2px rgba(32, 48, 202, 0.25);
+    border-radius: 10px;
+    margin: auto;
+}
+.mainBigCard {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.mainBottom {
+    margin-bottom: 20px;
+}
+.mainBigCard img {
+    width: 100%;
+}
+.mainBigCard p {
+    margin-top: 17px;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 17px;
+    color: #000000;
+}
+.mainBigCard button {
+    margin: auto;
+    width: 250px;
+    background: linear-gradient(96.8deg, #e18c44 18.05%, #ffcc81 91.37%);
+    color: #fff;
+    margin-bottom: 25px;
+}
+.mainBigCard button span {
+    margin-right: 8px;
+}
+.mainminiCard {
+    display: flex;
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+.mainminiCard img {
+    width: 100%;
+}
+.mainminiCard .mainminicardText {
+    margin-left: 18px;
+}
+.mainminiCard h4 {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 15px;
+    color: #000000;
+}
+.mainminiCard .mainDate {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+    color: #a2a2a2;
+    margin-bottom: 12px;
+}
+.mainminiCard button {
+    background: linear-gradient(96.8deg, #e18c44 18.05%, #ffcc81 91.37%);
+    color: #fff;
+}
+.sectionCard .col-6 {
+    margin: 0;
+    padding: 0;
+}
+.sectionCard h5 {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 31px;
+    color: #000000;
+    margin: 35px 0;
+    text-align: center;
+}
+.sectionCard p {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+    color: #000000;
+    margin: 0 21px;
+}
+.sectionCard img {
+    width: 100%;
+}
+.slider {
+    margin-top: 180px;
+}
+.sliderCard {
+    margin: 0;
+    padding: 0;
+}
+.hoverCard {
+    width: 100%;
+    position: relative;
+}
+.hoverMain {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 26px;
+    color: #ffffff;
+}
+.hoverText {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 17px;
+    color: #ffffff;
+}
+.hoverButton {
+    position: absolute;
+    top: 96px;
+    right: 20px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 9 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hoverButton span {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    color: #ffffff;
+}
+.hoverButton i {
+    font-size: 13px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.owl-nav {
+    display: block;
+    position: relative;
+}
+.owl-nav .owl-next {
+    position: absolute;
+    right: -25px;
+    font-size: 45px !important;
+    top: -210px;
+}
+.owl-nav .owl-prev {
+    position: absolute;
+    left: -25px;
+    font-size: 45px !important;
+    top: -210px;
+}
+.starter {
+    margin-top: 110px;
+    margin-bottom: 140px;
+}
+.starterCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.starterCard img {
+    width: 75%;
+    text-align: center;
+    box-shadow: -16px 16px 0px #e18c44;
+}
+.starterCard h3 {
+    margin-top: 35px;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: right;
+    color: #000000;
+}
+.starterCard p {
+    margin-top: 13px;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
+.bighostCard {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 103px;
+}
+.bighostCard img {
+    border-radius: 5px;
+}
+.bighostCard .hostDate {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 17px;
+    margin-left: 19px;
+    color: #000000;
+}
+.bighostCard .hostMain {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    margin-left: 19px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.bighostCard .hostText {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    margin-left: 19px;
+    margin-bottom: 15px;
+}
+.bighostCard button {
+    width: 43%;
+    background: linear-gradient(96.8deg, #e18c44 18.05%, #ffcc81 91.37%);
+    border-radius: 5px;
+    margin-left: 29%;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 17px;
+    color: #ffffff;
+}
+.minihostCard img {
+    border-radius: 4px;
+    width: 80%;
+}
+.minihostCard .hostDate {
+    margin-left: 13px;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+    color: #c4c4c4;
+}
+.minihostCard .hostMain {
+    margin-left: 13px;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 13px;
+    color: #000000;
+}
+.minihostCard button {
+    width: 50%;
+    margin-left: 13px;
+    background: linear-gradient(96.8deg, #e18c44 18.05%, #ffcc81 91.37%);
+    color: #fff;
+}
+.minihostCard button span {
+    font-size: 13px;
+}
+.minihostCard button i {
+    margin-left: 5px;
+}
+.bigCarousel {
+    position: relative;
+}
+.carousel-control-next {
+    position: absolute;
+    top: -150px;
+    right: -50px !important;
+}
+.carousel-control-prev {
+    position: absolute;
+    top: -150px;
+    left: -50px !important;
+}
+.photo {
+    margin-top: 150px;
+}
+.hoverCard {
+    position: relative;
+}
+.opaityHover {
+    position: absolute;
+    top: 0;
+    padding: 46px 26px;
+    height: 100vh;
+    background: rgba(32, 48, 202, 0.74);
+    opacity: 0;
+}
+.opaityHover:hover {
+    opacity: 1;
+}
+.opaityMain {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 17px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.opaityText {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+    color: #ffffff;
+}
+.owl-nav {
+    display: block !important;
+    position: relative;
+}
+.sponsor {
+    margin-top: 152px;
+    margin-bottom: 150px;
+}
+.sponsor img {
+    width: 88%;
+    box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.35);
+}
+footer {
+    background: url("./images/footer.png");
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+footer h3 {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 19px;
+    color: #ffffff;
+}
+
+footer h4 {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: right;
+    color: #ffffff;
+}
+
+footer p {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 19px;
+    color: #ffffff;
+}
+footer .text {
+    text-align: right;
+}
+.host {
+    width: 99%;
+}
+.carousel-control-next {
+    right: -110px;
+}
+.carousel-control-prev {
+    left: -110px;
+}
+.sliderCard img {
+    width: 100%;
+}
