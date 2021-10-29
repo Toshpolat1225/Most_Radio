@@ -176,7 +176,7 @@ main {
     background: linear-gradient(96.8deg, #e18c44 18.05%, #ffcc81 91.37%);
     color: #fff;
 }
-.sectionCard .col-6 {
+.sectionCard .col-md-6 {
     margin: 0;
     padding: 0;
 }
@@ -547,9 +547,6 @@ main{
     line-height: 13px;
     margin-bottom: 8px;
 }
-.photo{
-    margin-top: 70px;
-}
 .slider{
     width: 90%;
     margin: auto;
@@ -557,6 +554,7 @@ main{
 .photo{
     width: 90%;
     margin: auto;
+    margin-top: 70px;
 }
 .sponsor{
     margin-top: 70px;
@@ -612,13 +610,13 @@ footer{
     }
     .carousel-control-prev {
     position: absolute;
-    top: 168px;
-    left: 275px!important;
+    top: 580px;
+    left: 150px!important;
 }
     .carousel-control-next {
     position: absolute;
-    top: 168px;
-    right: 275px!important;
+    top: 580px;
+    right: 150px!important;
 }
 .hoverMain{
     font-size: 45px;
@@ -638,6 +636,23 @@ footer{
 }
 .hoverButton span{
     font-size: 20px;
+}
+.bighostCard button{
+    width: 75%;
+    margin-left: 14%;
+}
+
+}
+@media (max-width :767.5px){
+    .mainminiCard {
+    flex-direction: column;
+}
+.mainminiCard .mainminicardText {
+    margin: 0;
+    margin-top: 10px;
+}
+.page-main {
+    font-size: 15px;
 }
 }
 @media (max-width :576px){
@@ -662,4 +677,40 @@ footer{
         margin: 0;
         margin-bottom: 10px;
     }
+    .bighostCard .hostDate{
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height: 13px;
+    }
+    .bighostCard .hostMain{
+        margin-top: 0;
+        margin-bottom: 5px;
+        font-size: 15px;
+        line-height: 14px;
+        text-align: left;
+    }
+    .page-main{
+        text-align: center;
+    }
+    .bodermain{
+        width: 80%;
+    }
+    footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer h3 {
+    font-size: 16px;
+    line-height: 15px;
+}
+
+footer h4 {
+    font-size: 16px;
+    line-height: 15px;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 13px;
+}
 }
