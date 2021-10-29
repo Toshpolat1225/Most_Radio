@@ -20,18 +20,23 @@
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="navbartop d-flex justify-content-between align-items-center">
-                        <div class="col-4 leftNavbar">
-                            <ul class="d-flex align-items-center">
-                                <li>
-                                    <a href="#!"><img src="./images/logo.png" alt="logo" /></a>
-                                </li>
-                                <li class="nav-item dropdown">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="container-fluid">
+                            <a href="#!" class="navbar-brand" ><img src="./images/logo.png" alt="logo" /></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fas fa-bars"></i>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                     <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                                         role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         О нас
@@ -46,24 +51,31 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="navbarLi"><a href="#!">Программы</a></li>
-                                <li class="navbarLi"><a href="#!">Контакты</a></li>
-                            </ul>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Программы</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Контакты</a>
+                                    </li>
+                                </ul>
+                                 <div class="col-1 rightNavbar">
+                            <a href="#!"><i class="fas fa-camera d-none d-lg-block"></i><span>Веб-камера</span></a>
                         </div>
-                        <div class="col-1 rightNavbar">
-                            <a href="#!"><i class="fas fa-camera"></i><span>Веб-камера</span></a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-12">
+                    </nav>
+
+
+                    <div class="col-10 m-auto">
                         <div class="headerCard">
-                            <div class="col-6"><img class="imgMoct" src="./images/h1.png" alt="h1"></div>
-                            <div class="col-6">
+                            <div class="col-lg-6 col-12"><img class="imgMoct" src="./images/h1.png" alt="h1"></div>
+                            <div class="col-lg-6 col-12">
                                 <p>Просто включи !</p>
                                 <h1>MusicPlay</h1>
                             </div>
                         </div>
                     </div>
-                    <div class="headerContact col-2">
+                    <div class="headerContact col-lg-2 col-md-3 col-sm-4">
                         <ul>
                             <li>
                                 <a href="#!"><img src="./images/vkIcon.png" alt="vk"></a>
@@ -90,7 +102,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-5">
+                <div class="col-md-5 d-none d-md-block">
                     <div class="mainBigCard mainBottom">
                         <img src="./images/mainbigCard.png" alt="mainbigCard">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -106,12 +118,12 @@
                         <button><span>Подробнее</span> <i class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
-                <div class="col-7 mainminicardText">
+                <div class="col-md-7 col-12 mainminicardText">
                     <div class="mainminiCard">
-                        <div class="col-5">
+                        <div class="col-md-5 col-12">
                             <img src="./images/mainminiCard.png" alt="mainminiCard">
                         </div>
-                        <div class="col-7 mainminicardText">
+                        <div class="col-md-7 col-12 mainminicardText">
                             <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt</h4>
                             <p class="mainDate">20.10.2021</p>
@@ -119,10 +131,10 @@
                         </div>
                     </div>
                     <div class="mainminiCard mainminicardText">
-                        <div class="col-5">
+                        <div class="col-md-5 col-12">
                             <img src="./images/mainminiCard2.png" alt="mainminiCard">
                         </div>
-                        <div class="col-7 mainminicardText">
+                        <div class="col-md-7 col-12 mainminicardText">
                             <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt</h4>
                             <p class="mainDate">20.10.2021</p>
@@ -130,10 +142,10 @@
                         </div>
                     </div>
                     <div class="mainminiCard">
-                        <div class="col-5">
+                        <div class="col-md-5 col-12">
                             <img src="./images/mainminiCard3.png" alt="mainminiCard">
                         </div>
-                        <div class="col-7 mainminicardText">
+                        <div class="col-md-7  col-12 mainminicardText">
                             <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt</h4>
                             <p class="mainDate">20.10.2021</p>
@@ -141,10 +153,10 @@
                         </div>
                     </div>
                     <div class="mainminiCard">
-                        <div class="col-5">
+                        <div class="col-md-5 col-12">
                             <img src="./images/mainminiCard4.png" alt="mainminiCard">
                         </div>
-                        <div class="col-7 mainminicardText">
+                        <div class="col-md-7 col-12 mainminicardText">
                             <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt</h4>
                             <p class="mainDate">20.10.2021</p>
@@ -152,10 +164,10 @@
                         </div>
                     </div>
                     <div class="mainminiCard">
-                        <div class="col-5">
+                        <div class="col-md-5 col-12">
                             <img src="./images/mainminiCard.png" alt="mainminiCard">
                         </div>
-                        <div class="col-7 mainminicardText">
+                        <div class="col-md-7 col-12 mainminicardText">
                             <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt</h4>
                             <p class="mainDate">20.10.2021</p>
@@ -175,7 +187,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-6">
+                <div class="col-md-6 col-12">
                     <h5>Lorem ipsum dolor sit</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -191,15 +203,15 @@
                         minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6 col-12">
                     <img src="./images/sectioncard2.png" alt="sectioncard">
                 </div>
             </div>
             <div class="row">
-                <div class="col-6">
+                <div class="d-none d-md-block col-md-6">
                     <img src="./images/sectioncard.png" alt="sectioncard">
                 </div>
-                <div class="col-6">
+                <div class="col-md-6 col-12">
                     <h5>Lorem ipsum dolor sit</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -217,7 +229,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-6">
+                <div class="d-block col-12 d-md-none ">
+                    <img src="./images/sectioncard.png" alt="sectioncard">
+                </div>
+                <div class="col-md-6 col-12">
                     <h5>Lorem ipsum dolor sit</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -233,7 +248,7 @@
                         minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6 col-12">
                     <img src="./images/sectioncard3.png" alt="sectioncard">
                 </div>
             </div>
@@ -306,32 +321,32 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4 starterCard">
+                <div class="col-md-4 col-12 starterCard">
                     <img src="./images/staeter.png" alt="">
                     <h3>Артём Фадеев</h3>
                     <p>Руководитель проекта, музыкальный редактор, ведущий</p>
                 </div>
-                <div class="col-4 starterCard">
+               <div class="col-md-4 col-12 starterCard">
                     <img src="./images/staeter2.png" alt="">
                     <h3>Артём Фадеев</h3>
                     <p>Руководитель проекта, музыкальный редактор, ведущий</p>
                 </div>
-                <div class="col-4 starterCard">
+                <div class="col-md-4 col-12 starterCard">
                     <img src="./images/staeter3.png" alt="">
                     <h3>Артём Фадеев</h3>
                     <p>Руководитель проекта, музыкальный редактор, ведущий</p>
                 </div>
-                <div class="col-4 starterCard">
+               <div class="col-md-4 col-12 starterCard">
                     <img src="./images/staeter.png" alt="">
                     <h3>Артём Фадеев</h3>
                     <p>Руководитель проекта, музыкальный редактор, ведущий</p>
                 </div>
-                <div class="col-4 starterCard">
+                <div class="col-md-4 col-12 starterCard">
                     <img src="./images/staeter2.png" alt="">
                     <h3>Артём Фадеев</h3>
                     <p>Руководитель проекта, музыкальный редактор, ведущий</p>
                 </div>
-                <div class="col-4 starterCard">
+               <div class="col-md-4 col-12 starterCard">
                     <img src="./images/staeter3.png" alt="">
                     <h3>Артём Фадеев</h3>
                     <p>Руководитель проекта, музыкальный редактор, ведущий</p>
@@ -361,14 +376,14 @@
                                         <p class="hostDate">06.08.2021</p>
                                         <h2 class="hostMain">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
-                                        <p class="hostText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                        <p class="hostText d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                             do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum
                                             dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                             incididunt ut labore et dolore magna aliqua.</p>
                                         <button>Читать подробнее</button>
                                     </div>
                                 </div>
-                                <div class="minihostCard d-flex">
+                                <div class="minihostCard d-flex d-none d-lg-block">
                                     <div class="col-6 d-flex">
                                         <div class="col-6">
                                             <img src="./images/host.png" alt="">
@@ -381,7 +396,7 @@
                                             <button><span>Подробнее</span><i class="fas fa-arrow-right"></i></button>
                                         </div>
                                     </div>
-                                    <div class="col-6 d-flex">
+                                    <div class="col-6 d-flex d-none d-lg-block">
                                         <div class="col-6">
                                             <img src="./images/host2.png" alt="">
                                         </div>
@@ -404,14 +419,14 @@
                                         <p class="hostDate">06.08.2021</p>
                                         <h2 class="hostMain">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
-                                        <p class="hostText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                        <p class="hostText d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                             do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum
                                             dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                             incididunt ut labore et dolore magna aliqua.</p>
                                         <button>Читать подробнее</button>
                                     </div>
                                 </div>
-                                <div class="minihostCard d-flex">
+                                <div class="minihostCard d-flex d-none d-lg-block">
                                     <div class="col-6 d-flex">
                                         <div class="col-6">
                                             <img src="./images/host2.png" alt="">
@@ -447,14 +462,14 @@
                                         <p class="hostDate">06.08.2021</p>
                                         <h2 class="hostMain">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
-                                        <p class="hostText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                        <p class="hostText d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                             do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum
                                             dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                             incididunt ut labore et dolore magna aliqua.</p>
                                         <button>Читать подробнее</button>
                                     </div>
                                 </div>
-                                <div class="minihostCard d-flex">
+                                <div class="minihostCard d-flex d-none d-lg-block">
                                     <div class="col-6 d-flex">
                                         <div class="col-6">
                                             <img src="./images/host.png" alt="">
@@ -605,3 +620,42 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+<!--    <div class="navbartop d-flex justify-content-between align-items-center">
+                        <div class="col-4 leftNavbar">
+                            <ul class="d-flex align-items-center">
+                                <li>
+                                    <a href="#!"><img src="./images/logo.png" alt="logo" /></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        О нас
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">1</a></li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">2</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navbarLi"><a href="#!">Программы</a></li>
+                                <li class="navbarLi"><a href="#!">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-1 rightNavbar">
+                            <a href="#!"><i class="fas fa-camera"></i><span>Веб-камера</span></a>
+                        </div>
+                    </div> -->

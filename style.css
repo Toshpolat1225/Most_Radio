@@ -3,40 +3,46 @@ header {
     box-sizing: border-box;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding-top: 59px;
-    padding-bottom: 54px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 img {
     width: 100%;
 }
-.navbartop {
-    margin-bottom: 300px;
+.navbar {
+    margin-bottom: 220px;
 }
-.navbartop .leftNavbar ul {
+.navbar  button{
+    color: #fff !important;
+}
+.navbar  ul {
     margin: 0;
     padding: 0;
 }
-.navbartop .leftNavbar ul li {
+.navbar  ul li {
     list-style: none;
 }
-.navbartop .leftNavbar ul .navbarLi {
+.navbar  ul .navbarLi {
     margin: 0;
     padding: 0;
     margin-left: 30px;
 }
-.navbartop .leftNavbar ul li a {
+.navbar  ul li a {
     text-decoration: none !important;
     font-family: Gotham Pro;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 17px;
-    color: #ffffff;
+    color: #ffffff !important;
 }
-.navbartop .leftNavbar ul li .dropdown-item {
+.navbar  ul li .dropdown-item {
     color: black;
 }
-.navbartop .rightNavbar a {
+.navbar .rightNavbar{
+    width: auto;
+}
+.navbar .rightNavbar a {
     text-decoration: none;
     font-family: Gotham Pro;
     font-style: normal;
@@ -47,12 +53,15 @@ img {
     display: flex;
     flex-direction: column;
 }
-.navbartop .rightNavbar a i {
+.navbar .rightNavbar a i {
     margin: auto;
     margin-bottom: 10px;
 }
 .headerCard {
     display: flex;
+    align-items: flex-start !important;
+    margin: 0;
+    padding: 0;
     margin-bottom: 233px;
 }
 .headerCard .imgMoct {
@@ -63,7 +72,7 @@ img {
     font-family: Gotham Pro;
     font-style: normal;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 60px;
     line-height: 61px;
     color: #ffffff;
 }
@@ -486,7 +495,8 @@ footer .text {
     text-align: right;
 }
 .host {
-    width: 99%;
+    width: 90%;
+    margin: auto;
 }
 .carousel-control-next {
     right: -110px;
@@ -496,4 +506,160 @@ footer .text {
 }
 .sliderCard img {
     width: 100%;
+}
+@media (max-width :992px) {
+.navbar {
+    margin-bottom: 140px;
+    }
+    .headerCard p {
+    font-size: 50px;
+
+}
+.headerCard{
+    margin-bottom: 140px;
+}
+.mainminiCard {
+    margin-left: 25px;
+}
+main{
+    padding-top: 65px;
+    padding-bottom: 90px;
+}
+.sectionCard h5{
+    margin: 10px 0;
+}
+.sectionCard p {
+    font-size: 14px;
+}
+.slider{
+    margin-top: 100px;
+}
+.bighostCard{
+    margin-bottom: 50px;
+}
+.bighostCard .hostMain{
+    font-size: 16px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+.bighostCard .hostText{
+    font-size: 14px;
+    line-height: 13px;
+    margin-bottom: 8px;
+}
+.photo{
+    margin-top: 70px;
+}
+.slider{
+    width: 90%;
+    margin: auto;
+}
+.photo{
+    width: 90%;
+    margin: auto;
+}
+.sponsor{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+footer{
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+
+}
+@media (max-width :768px){
+    .navbar{
+        margin-bottom: 70px;
+    }
+    .headerCard{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .headerCard p,
+    .headerCard h1{
+        text-align: center;
+    }
+    .page-main{
+        font-size: 18px;
+    }
+    .mainTop{
+        margin-bottom: 40px;
+    }
+    main{
+        padding-top: 30px;
+        padding-bottom: 45px;
+    }
+    .mainBigCard p{
+        font-size: 14px;
+        line-height: 13px;
+    }
+    .mainBigCard button {
+        margin-bottom: 0px;
+    }
+    .sectionCard h5 {
+        margin: 0;
+        font-size: 20px;
+    }
+    .sectionCard p {
+        margin-top: 0;
+        font-size: 12px;
+        line-height: 11px;
+    }
+    .starter{
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+    .carousel-control-prev {
+    position: absolute;
+    top: 168px;
+    left: 275px!important;
+}
+    .carousel-control-next {
+    position: absolute;
+    top: 168px;
+    right: 275px!important;
+}
+.hoverMain{
+    font-size: 45px;
+    top: 45px;
+    left: 50px;
+}
+.hoverText{
+    font-size: 35px;
+    line-height: 35px;
+    top: 120px;
+    left: 50px;
+}
+.hoverButton{
+    top: 230px;
+    right: 35px;
+    padding: 8px 16px;
+}
+.hoverButton span{
+    font-size: 20px;
+}
+}
+@media (max-width :576px){
+    .bodermain{
+        width: 115%;
+    }
+    .mainminiCard{
+        flex-direction: column;
+    }
+    .mainminiCard .mainminicardText{
+        margin: 0;
+        margin-top: 10px;
+    }
+    .page-main{
+        font-size: 16px;
+        text-align: end;
+    }
+    .sectionCard h5 {
+        margin-top: 15px;
+    }
+    .sectionCard p {
+        margin: 0;
+        margin-bottom: 10px;
+    }
 }
