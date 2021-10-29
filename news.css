@@ -1,0 +1,362 @@
+header{
+    background: linear-gradient(96.8deg, #E18C44 18.05%, #FFCC81 91.37%);
+}
+.navbar{
+    margin: 0;
+    padding: 25px 0;
+}
+.navbar img{
+    width: 100%;
+}
+.Alogo{
+    margin: 0 !important;
+}
+.navbar  button{
+    color: #fff !important;
+}
+.navbar  ul {
+    margin: 0;
+    padding: 0;
+}
+.navbar  ul li {
+    list-style: none;
+}
+.navbar  ul .navbarLi {
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+}
+.navbar  ul li a {
+    text-decoration: none !important;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 17px;
+    color: #ffffff !important;
+}
+.navbar  ul li .dropdown-item {
+    color: black !important;
+}
+.bigNav{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.navbar .cameraNav{
+    width: 100px;
+}
+.navbar .cameraNav {
+    text-decoration: none;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 17px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.navbar .cameraNav i {
+    margin: auto;
+    margin-bottom: 10px;
+}
+.mainTop{
+    margin: 0 !important;
+}
+.page-main {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 31px;
+    color: #000000;
+    text-align: center;
+}
+.bodermain {
+    width: 75%;
+    height: 5px;
+    background: #2030ca;
+    box-shadow: 0px 3px 6px 2px rgba(32, 48, 202, 0.25);
+    border-radius: 10px;
+    margin: auto;
+}
+.rekCarousel{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.NewsNumbersCarousel{
+    position: relative;
+}
+.NewsNumbersOl{
+    position: absolute;
+    left: 0;
+    bottom: -55px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+}
+
+
+.NewsNumbersOl li{
+    margin-right: 4px;
+    margin-left: 4px;
+    height: 22px;
+}
+.NewsNumbersOl .active,
+.NewsNumbersOl li:hover{
+    margin-right: 4px;
+    margin-left: 4px;
+    font-weight: 700;
+    height: 22px;
+}
+.NewsNumbersOl .dotLI1{
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    color: #000;
+    width: 7px;
+    height: 7px;
+    background-color: #000;
+    border-radius: 50%;
+}
+.NewsNumbersOl .dotLI2{
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    color: #000;
+    width: 7px;
+    height: 7px;
+    background-color: #000;
+    border-radius: 50%;
+
+}
+.carousel-indicators li{
+    text-indent: 0;
+}
+.rekCarousel .bigCard .card{
+    border: none;
+    margin: 40px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    padding: 6px;
+}
+.rekCarousel .bigCard .card h2{
+    font-family: Gotham Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 14px;
+
+color: #000000;
+margin: 10px 0;
+}
+.rekCarousel .bigCard .card .time{
+display: flex;
+justify-content: space-between;
+}
+.rekCarousel .bigCard .card button{
+font-family: Gotham Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 15px;
+
+color: #FFFFFF;
+background: linear-gradient(96.8deg, #E18C44 18.05%, #FFCC81 91.37%);
+border-radius: 5px;
+margin: auto;
+width: 55%;
+margin-bottom: 5px;
+}
+.rekCarousel .bigCard .card .time p{
+font-family: Gotham Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 15px;
+
+color: #000000;
+}
+.sliderCard{
+    margin-top: 58px;
+}
+.bighostCard{
+   width: 86%;
+   margin: auto;
+}
+.bighostCard img{
+   width: 100%;
+}
+.bighostCard button{
+   font-family: Gotham Pro;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 15px;
+text-align: center;
+color: #FFFFFF;
+background: linear-gradient(96.8deg, #E18C44 18.05%, #FFCC81 91.37%);
+border-radius: 5px;
+margin: auto;
+margin-left: 29%;
+width: 43%;
+}
+.hostDate{
+    font-family: Gotham Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 17px;
+margin-left: 9px;
+
+color: #000000;
+
+}
+.hostMain{
+
+font-family: Gotham Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 19px;
+text-align: center;
+
+color: #000000;
+}
+.hostText{
+    font-family: Gotham Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 19px;
+text-align: center;
+
+color: #000000;
+}
+.bigCarousel {
+    position: relative;
+}
+.carousel-control-prev{
+    position: absolute;
+    left: -30px;
+}
+.carousel-control-next{
+    position: absolute;
+    right: -30px;
+}
+.exit h6{
+
+font-family: Gotham Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 19px;
+
+color: #000000;
+}
+.exit{
+    margin-top: 91px;
+    margin-bottom: 105px;
+}
+
+footer {
+    background: url("./images/footer.png");
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+footer h3 {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 19px;
+    color: #ffffff;
+}
+footer h4 {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: right;
+    color: #ffffff;
+}
+footer p {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 19px;
+    color: #ffffff;
+}
+footer .text {
+    text-align: right;
+}
+@media (max-width :992px){
+    .rekCarousel .bigCard .card button{
+        width: 80%;
+    }
+    .hostMain{
+        margin-top: 12px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 15px;
+    }
+    .hostText {
+        font-size: 16px;
+        line-height: 15px;
+    }
+    .exit{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+footer{
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+}
+@media (max-width :768px){
+.page-main{
+        font-size: 18px;
+    }
+
+
+
+}
+@media (max-width :767.5px){
+.page-main {
+    font-size: 15px;
+}
+}
+@media (max-width :576px){
+.page-main{
+        font-size: 16px;
+        text-align: end;
+        text-align: center;
+    }
+    .bodermain{
+        width: 115%;
+    }
+        footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer h3 {
+    font-size: 16px;
+    line-height: 15px;
+}
+
+footer h4 {
+    font-size: 16px;
+    line-height: 15px;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 13px;
+}
+}
