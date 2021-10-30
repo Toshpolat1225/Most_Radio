@@ -376,8 +376,20 @@ footer{
     padding-bottom: 85px;
 }
 }
-@media (max-width :768px){
+@media (max-width :767px){
 
+.newMain{
+    margin-top: 30px;
+font-size: 12px;
+line-height: 11px;
+margin-left: 0px;
+margin-bottom: 12px;
+}
+.newMainImgCard{
+    margin-left: 0px;
+    width: 100%;
+    margin-bottom: 49px;
+}
 
 }
 @media (max-width :991px){
