@@ -14,3 +14,10 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+$(document).ready(function() {
+  var btn = $(".playIcon");
+  btn.click(function() {
+    btn.toggleClass("paused");
+    return false;
+  });
+});
