@@ -71,14 +71,8 @@ header{
     line-height: 31px;
     color: #000000;
     text-align: center;
-}
-.bodermain {
-    width: 75%;
-    height: 5px;
-    background: #2030ca;
-    box-shadow: 0px 3px 6px 2px rgba(32, 48, 202, 0.25);
-    border-radius: 10px;
-    margin: auto;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #2030ca;
 }
 .rekCarousel{
     margin-top: 50px;
@@ -244,7 +238,7 @@ color: #000000;
     position: absolute;
     left: -30px;
 }
-.carousel-control-next{ 
+.carousel-control-next{
     position: absolute;
     right: -30px;
 }
@@ -264,17 +258,48 @@ color: #000000;
 }
 
 .newMain{
-    margin-top: 100px;
+    margin-top: 90px;
+
+font-family: Gotham Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 23px;
+/* identical to box height */
+
+margin-left: 100px;
+color: #000000;
+
+margin-bottom: 25px;
+}
+.newMainImgCard{
+    margin-left: 100px;
+    width: 54%;
+    margin-bottom: 99px;
+}
+.newMainImgCard img{
+    width: 100%;
+}
+.newMainImgCard p{
+    font-family: Gotham Pro;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 17px;
+text-align: center;
+margin-top: 27px;
+color: #000000;
+}
+.newMainImgCard p span{
     font-family: Gotham Pro;
 font-style: normal;
 font-weight: bold;
-font-size: 36px;
-line-height: 34px;
+font-size: 18px;
+line-height: 17px;
+text-align: center;
 
 color: #000000;
-margin-bottom: 100px;
 }
-
 footer {
     background: url("./images/footer.png");
     box-sizing: border-box;
@@ -352,10 +377,6 @@ footer{
 }
 }
 @media (max-width :768px){
-.page-main{
-        font-size: 18px;
-    }
-
 
 
 }
@@ -366,20 +387,17 @@ footer{
     }
 
 }
-@media (max-width :767.5px){
-.page-main {
-    font-size: 15px;
-}
+@media (max-width :600px){
+    .page-main{
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .newMain{
+        margin-top: 50px;
+    }
 }
 @media (max-width :576px){
-.page-main{
-        font-size: 16px;
-        text-align: end;
-        text-align: center;
-    }
-    .bodermain{
-        width: 115%;
-    }
+
         footer {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -469,7 +487,7 @@ footer p {
       left: 0;
     }
   }
-  
+
 .carousel-inner > .active,
 .carousel-inner > .next,
 .carousel-inner > .prev {

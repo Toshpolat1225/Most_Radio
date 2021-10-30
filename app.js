@@ -22,11 +22,24 @@ $(document).ready(function() {
   });
 });
  var inputSlider = document.querySelector('.inputSlider');
-  
-console.log("hdfbhdefhjghdjgf");
+ var muteVolume = document.querySelector('.muteVolume');
+
+
 inputSlider.addEventListener('mousemove', function(){
     console.log(inputSlider.value);
      var x =inputSlider.value;
+     var color =`linear-gradient(90deg, rgb(255, 204, 129)` +x +`%, rgb(255, 255, 255)`+ x+"%)";
+     inputSlider.style.background =color;
+ });
+muteVolume.addEventListener('click', function () {
+
+    if (inputSlider.value == 0) {
+        inputSlider.value = 100;
+    }
+    else {
+        inputSlider.value = 0
+    }
+    var x = inputSlider.value;
      var color =`linear-gradient(90deg, rgb(255, 204, 129)` +x +`%, rgb(255, 255, 255)`+ x+"%)";
      inputSlider.style.background =color;
  });
