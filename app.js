@@ -21,3 +21,12 @@ $(document).ready(function() {
     return false;
   });
 });
+ var inputSlider = document.querySelector('.inputSlider');
+  
+console.log("hdfbhdefhjghdjgf");
+inputSlider.addEventListener('mousemove', function(){
+    console.log(inputSlider.value);
+     var x =inputSlider.value;
+     var color =`linear-gradient(90deg, rgb(255, 204, 129)` +x +`%, rgb(255, 255, 255)`+ x+"%)";
+     inputSlider.style.background =color;
+ });
