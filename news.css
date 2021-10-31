@@ -497,7 +497,7 @@ margin-bottom: 12px;
     margin-bottom: 49px;
 }
 .ProgrammMainH h2{
-    font-size: 20px !important;
+    font-size: 19px !important;
 }
 }
 @media (max-width :991px){
@@ -546,6 +546,9 @@ margin-bottom: 12px;
     .marginTopProgramma{
         margin-top: 13px;
     }
+    .ProgrammMainH2 h2{
+        font-size: 24px;
+    }
 
 }
 @media (max-width :600px){
@@ -580,6 +583,12 @@ margin-bottom: 12px;
     }
     .widthMedia{
         width: 45% !important;
+    }
+    .ProgrammMainH2 h2{
+        font-size: 14px !important;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 @media (max-width :576px){
