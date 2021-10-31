@@ -401,6 +401,42 @@ color: #000000;
     background: linear-gradient(96.8deg, #E18C44 18.05%, #FFCC81 91.37%);
 border-radius: 6px;
 }
+.liveH2{
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 23px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 43px;
+}
+.liveP{
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 20px;
+    color: #000;
+    margin-left: 22px;
+}
+.liveBtn{
+    margin-top: 23px;
+    margin-bottom: 135px;
+    background: linear-gradient(96.8deg, #E18C44 18.05%, #FFCC81 91.37%);
+    border-radius: 5px;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    padding: 8px 66px;
+    color: #FFFFFF;
+}
+.PhotoMain{
+    margin-bottom: 137px;
+}
 footer {
     background: url("./images/footer.png");
     box-sizing: border-box;
@@ -481,6 +517,10 @@ footer{
     padding-top: 85px;
     padding-bottom: 85px;
 }
+.liveP {
+    font-size: 15px;
+    line-height: 15px;
+}
 }
 @media (max-width :767px){
 
@@ -548,6 +588,15 @@ margin-bottom: 12px;
     }
     .ProgrammMainH2 h2{
         font-size: 24px;
+    }
+    .liveP {
+        margin-left: 0;
+        margin-top: 24px;
+        line-height: 17px;
+
+    }
+    .liveBtn{
+        margin-bottom: 59px;
     }
 
 }
