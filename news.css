@@ -300,6 +300,107 @@ text-align: center;
 
 color: #000000;
 }
+.hoverCard {
+    width: 100%;
+    position: relative;
+}
+.hoverCard  img{
+    width: 100%;
+   
+}
+.hoverMain {
+    position: absolute;
+    top: 50px;
+    left: 48px;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 46px;
+    color: #ffffff;
+}
+.hoverText {
+    position: absolute;
+    top: 110px;
+    right: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+}
+.hoverButton {
+    position: absolute;
+    top: 170px;
+    right: 30px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hoverButton span {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 15px;
+    color: #ffffff;
+    margin-left: 15px;
+    margin-top: 9px;
+    margin-bottom: 8px;
+}
+.hoverButton i {
+    font-size: 16px;
+    color: #ffffff;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.ProgrammDate{
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 15px;
+    color: #000;
+}
+.ProgrammDate i{
+    margin-right: 8px;
+    font-size: 18px;
+}
+.ProgrammMain{
+    margin-bottom: 185px;
+}
+.ProgrammMainH{
+    margin-top: 40px;
+}
+.ProgrammMainH h2{
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 23px;
+    color: #000;
+    text-align: center;
+}
+.progammText{
+    margin-top: 18px;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: #000;
+}
+.border24{
+    width: 24%;
+    height: 5px;
+    background: linear-gradient(96.8deg, #E18C44 18.05%, #FFCC81 91.37%);
+border-radius: 6px;
+}
 footer {
     background: url("./images/footer.png");
     box-sizing: border-box;
@@ -351,6 +452,11 @@ footer .text {
     .carousel-control-next{
         right: -20px;
     }
+    .progammText{
+        margin-top: 13px;
+        font-size: 13px;
+        line-height: 13px;
+    }
 
 }
 @media (max-width :992px){
@@ -390,22 +496,90 @@ margin-bottom: 12px;
     width: 100%;
     margin-bottom: 49px;
 }
-
+.ProgrammMainH h2{
+    font-size: 20px !important;
+}
 }
 @media (max-width :991px){
     .bighostCardMargin{
         width: 100%;
         margin-top: 25px;
     }
+    .hoverMain{
+        font-size: 32px;
+        left: 28px;
+        top: 26px;
+    }
+    .hoverText{
+        top: 80px;
+        right: 22px;
+        font-size: 18px;
+    }
+    .hoverButton{
+        top: 133px;
+        right: 22px;
+    }
+    .hoverButton span{
+        font-size: 13px;
+        margin-top: 5px;
+        margin-bottom: 4px;
+        margin-left: 7px;
+    }
+    .hoverButton i{
+        font-size: 13px;
+        margin-right: 7px;
+    }
+    .ProgrammDate{
+        text-align: center;
+        font-size: 19px;
+        margin-top: 8px;
+        margin-bottom: 70px;
+    }
+    .ProgrammMainH h2{
+        width: 55%;
+        font-size: 32px;
+        padding-bottom: 15px;
+        border-bottom: 3px solid  #e79248; /*  #FFCC81  */
+        border-radius: 5px;
+        margin: auto;
+    }
+    .marginTopProgramma{
+        margin-top: 13px;
+    }
 
 }
 @media (max-width :600px){
     .page-main{
-        font-size: 19px;
+        font-size: 18px;
         line-height: 22px;
     }
     .newMain{
         margin-top: 50px;
+        
+    }
+    .ProgrammDate{
+        font-size: 13px;
+    }
+    .hoverText{
+        font-size: 13px;
+    }
+    .ProgrammMainH h2{
+        margin: 0;
+    }
+    .ProgrammDate{
+        margin: 8px 0 70px;
+        text-align-last: center;
+        font-size: 14px;
+        width: 60%;
+    }
+    .hoverImg{
+        padding-right: 10px;
+    }
+    .displayNoneMedia{
+        display: none;
+    }
+    .widthMedia{
+        width: 45% !important;
     }
 }
 @media (max-width :576px){
@@ -427,6 +601,18 @@ footer h4 {
 footer p {
     font-size: 14px;
     line-height: 13px;
+}
+.hoverMain{
+    font-size: 24px;
+}
+.hoverText,
+.hoverMain,
+.hoverButton{
+    display: none;
+
+}
+.ProgrammMainH h2{
+    font-size: 18px !important;
 }
 }
 
