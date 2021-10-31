@@ -1,3 +1,4 @@
+
 header {
     background: url("./images/header.png");
     box-sizing: border-box;
@@ -206,8 +207,19 @@ main {
     padding-top: 95px;
     padding-bottom: 155px;
 }
+.mainBigCard button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.mainminiCard button a{
+    color: #ffffff;
+    text-decoration: none;
+}
 .mainTop {
     margin-bottom: 97px;
+}
+.mainTop a{
+    text-decoration: none;
 }
 .page-main {
     font-family: Gotham Pro;

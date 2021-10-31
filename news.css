@@ -252,6 +252,9 @@ line-height: 19px;
 
 color: #000000;
 }
+.exit a {
+text-decoration: none !important;
+}
 .exit{
     margin-top: 91px;
     margin-bottom: 105px;
